@@ -4,7 +4,9 @@ public class ArrayMaxValue {
 
     public static void main(String[] args) {
 
-        int arr[][] = {{10, 50, 20},{15,65,48},{87,99,45}};
+        int arr[][] = {{10,50,20},
+        		       {15,65,48},
+        		       {87,99,45}};
 
         int max = arr[0][0];
 

@@ -5,27 +5,31 @@ import java.util.Scanner;
 public class Array2dUser {
 
     public static void main(String[] args) {
+    	
+    	Scanner sc = new Scanner(System.in);
+    	
+    	int matrix[][] = new int[3][3];
+    	
+    	for(int i =0;i<3;i++) {
+    		
+    		for(int j= 0;j<3;j++) {
+    			
+    			System.out.println("Please enter the number :");
+    			matrix[i][j]=sc.nextInt();
+    		}
+    	}
+    	
+    	
+    	for(int i = 0;i<3;i++) {
+    		for(int j=0;j<3;j++) {
+    			System.out.print(matrix[i][j]+" ");
+    		}
+    		System.out.println();
+    		
+    	}
+    	
+    	
+    	
 
-        Scanner sc = new Scanner(System.in);
-
-        int matrix[][] = new int[3][3];
-
-        for (int i = 0; i < 3; i++) {
-
-            for (int j = 0; j < 3; j++) {
-
-                System.out.println("Enter the number:");
-                matrix[i][j] = sc.nextInt();
-            }
-        }
-
-        for (int i = 0; i < 3; i++) {
-
-            for (int j = 0; j < 3; j++) {
-
-                System.out.print(matrix[i][j]);
-            }
-            System.out.println();
-        }
     }
 }
