@@ -1,5 +1,6 @@
 # Compiled Java files
 *.class
+bin/
 
 # Eclipse workspace settings
 .metadata/
