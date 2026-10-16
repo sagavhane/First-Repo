@@ -1,10 +1,10 @@
 package day7;
 
-public interface Animal {
+public interface Animal{
+	
 	void eat();
 	void sleep();
-	void run();
+	void  run();
 	
 	
-
 }

@@ -1,27 +1,26 @@
 package day7;
 
-public class horse implements Animal {
+public class horse implements Animal{
 	@Override
 	public void eat() {
-		
-		System.out.println("Eating ");
-		
+		System.out.println("");
 	}
 
 	@Override
 	public void sleep() {
-		// TODO Auto-generated method stub
-		System.out.println("E ");
-
+		System.out.println("");
 		
 	}
 
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
-		System.out.println("Eating ");
-
+		System.out.println("horse is running");
 		
 	}
+	
+	
+	
+
 
 }
+

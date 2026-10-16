@@ -15,21 +15,25 @@ public class SingleInheritanceDemo {
 		
 		
 		
+            Amitabh a6 = new Aradhya();
+		
+		       a6.home();
+		
+            Abhishek a5 = new Aradhya();
+		
+		     a5.home();
+		     a5.car();
+		
+		     Aradhya a3 = new Aradhya();
+		     a3.home();
+		     a3.car();
+		
+		     a3.office();
 		
 		
 		
 		
-		Aradhya a3 = new Aradhya();
 		
-		
-		
-		Abhishek a5 = new Aradhya();
-		
-		a5.home();
-		a5.car();
-		Amitabh a6 = new Aradhya();
-		
-		a6.home();
 		
 		
 	}
