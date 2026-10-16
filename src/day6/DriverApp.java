@@ -15,6 +15,10 @@ public class DriverApp {
 		s3.displayStudent();
 		s4.displayStudent();
 		
+		
+		Student s5 = new Student(18,"Virat",89);
+		s5.displayStudent();
+		
 	}
 
 }
