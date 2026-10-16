@@ -1,0 +1,5 @@
+# Compiled Java files
+*.class
+
+# Eclipse workspace settings
+.metadata/
