@@ -9,7 +9,7 @@ public class DoWhile {
 		do {
 			System.out.println("Virat Kohli "+i);
 			i++;
-		}while(i<=5);
+		}while(i<=0);
 		
 		
 	}
