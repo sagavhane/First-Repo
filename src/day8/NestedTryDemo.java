@@ -22,7 +22,7 @@ public class NestedTryDemo {
 	                                         int n = sc.nextInt();
 	                                         
 	                                         
-	                                         System.out.println("please enter the index of number that you want to be a numerator ");
+	                                         System.out.println("please enter the index of number that you want to be a denomirator ");
 	                                         int d = sc.nextInt();
 	                                         
 	                                         double result = arr[n]/arr[d];
