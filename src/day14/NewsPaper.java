@@ -5,6 +5,8 @@ public class NewsPaper implements Printing {
 	@Override
 	public void print() {
 		
+		System.out.println("printing in news paper .");
+		
 		
 	}
 

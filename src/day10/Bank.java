@@ -28,7 +28,7 @@ public class Bank {
 	
 	public synchronized void deposit(double depositAmount)
 	{
-		balance+=depositAmount;	//balance 25000
+		balance+=depositAmount;	//balance 25000                   
 		notify();
 			
 	}

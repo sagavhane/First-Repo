@@ -7,7 +7,7 @@ public class Student  {
 	private String studentname;   // instance scope 
     private double percentage;    // instance scope 
    
-    Student(){
+    public Student(){
     	
     }
 
@@ -74,6 +74,21 @@ public class Student  {
 		else {
 			return 0;
 		}
+		
+	}
+
+	public static void display() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void displayschoolYearOfEstablishment() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void displayStudent() {
+		// TODO Auto-generated method stub
 		
 	} 
     
