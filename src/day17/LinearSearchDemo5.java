@@ -55,6 +55,6 @@ public class LinearSearchDemo5 {
 		System.out.println("Total Notes = "
 				+ totalNotes);
 
-		sc.close();
+		
 	}
 }
